@@ -1,0 +1,285 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #ededed;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h4 {
+  color: rgb(19, 199, 225);
+}
+
+.navbar {
+  background-color: #fff;
+  border-bottom: gray 2px solid;
+}
+
+#mas-info {
+  color: #fff;
+}
+
+.ul-container {
+  width: 100%;
+}
+ul {
+  float: right;
+}
+
+.scroll {
+  font-size: 1.2em;
+}
+
+.nav-item:hover {
+  border-bottom: lightblue 1px solid;
+}
+
+.animate {
+  animation: fadeIn 1000ms forwards;
+  opacity: 0;
+  transform: scale(0.9) translateX(30em);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9) translateX(30em);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateX(0);
+  }
+}
+
+.caracteristicas li {
+  background: rgb(237, 237, 237) !important;
+  text-align: left;
+}
+
+.integrante {
+  display: flex;
+  flex-direction: column;
+}
+
+.caracteristicas {
+}
+
+.caracteristica {
+}
+
+.col-sm h2 {
+  padding-top: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.col-sm-6 h2 {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.col-sm-5 h2 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.col-sm-12 h2 {
+  margin-bottom: 40px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.col-sm p {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.logo {
+  width: 140px;
+  height: 80px;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-left: inherit;
+  padding-right: inherit;
+}
+
+.jumbotron {
+  background-image: url('st.jpg');
+  background-size: cover;
+  height: 435px;
+  color: white;
+  padding-top: 100px;
+  border-radius: inherit;
+  margin-bottom: inherit;
+  overflow: hidden;
+}
+
+.contenedorMisionVision #cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.mision {
+  background-color: ;
+}
+
+.vision {
+  background-color: ;
+}
+
+.integrantes {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 990px) {
+  #acerca {
+    height: 35vh;
+  }
+}
+
+@media (max-width: 500px) {
+  #acerca {
+    height: 50vh;
+  }
+}
+
+.acerca {
+  margin-bottom: 0px;
+  height: 400px;
+  background-color: ;
+}
+
+.animated2 {
+  animation: appear 1000ms cubic-bezier(0.41, 0.56, 0.68, 1.23) 500ms forwards;
+  opacity: 0;
+  transform: scale(0.95);
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.misionVision {
+  height: 400px;
+}
+
+.integrantesTitle {
+  height: px;
+  margin-top: 20px;
+}
+
+.integrantes-tit:after {
+  content: '';
+  width: 80%;
+  margin: 0.5em auto;
+  height: 2px;
+  display: block;
+  background-color: rgba(19, 199, 225, 0.87);
+}
+
+.btn {
+  color: gray;
+}
+
+.btn:hover {
+  background-color: lightblue;
+  color: white;
+}
+
+.contenedorAcerca {
+  width: 100%;
+  background-image: url();
+  background-size: cover;
+  background-color: #262626;
+  color: white;
+}
+
+.contenedorMisionVision {
+  background-color: #1bcae5;
+}
+
+.row .mision h2 {
+  padding-top: 25px;
+}
+
+@media (max-width: 770px) {
+  #mvcont {
+    margin-top: 8em;
+  }
+}
+
+.row .mision {
+  position: relative;
+  bottom: 100px;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+}
+
+.row .vision h2 {
+  padding-top: 25px;
+}
+
+.row .vision {
+  position: relative;
+  bottom: 100px;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+}
+
+.card {
+  background-color: inherit;
+  border: inherit;
+}
+
+footer {
+  background-color: rgb(38, 38, 38);
+  color: #fff;
+  padding: 0.5em 1em;
+}
+
+#footer-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 769px) {
+  #footer-list {
+    flex-direction: column;
+  }
+}
+
+#link-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  color: #1bcae5;
+  font-size: 2.6em;
+}
+
+@media (max-width: 772px) {
+  .icon {
+    margin-bottom: 0.5em;
+  }
+}
+
+#social {
+  color: #fff;
+}
